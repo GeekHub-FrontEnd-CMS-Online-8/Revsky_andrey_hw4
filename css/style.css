@@ -1,0 +1,23 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body {
+    font-family: Lato, Helvetica, sans-serif;
+}
+/*cookies form*/
+.cookies-block {
+    height: 72px;
+    text-align: center;
+    background-color: #194277;
+    color: #fff;
+}
+#btn-cookies-accept{
+    margin: 20px 20px;
+    width: 112px;
+    height: 30px;
+    border-radius: 15px;
+    color: #194277;
+    background-color: #fff;
+}
